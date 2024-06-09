@@ -37,5 +37,8 @@ export const createOrder = async (
     },
   });
 
+  console.log(order);
+  
+
   return order;
 };

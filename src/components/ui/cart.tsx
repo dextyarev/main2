@@ -21,7 +21,7 @@ const Cart = () => {
 
   const handleFinishPurchaseClick = async () => {
     if (!data?.user) {
-      window.location.href = "http://localhost:3000/auth/signin";
+      window.location.href = "https://kmkcorp.vercel.app/auth/signin";
       return;
     }
 

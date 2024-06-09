@@ -12,7 +12,7 @@ export default function UserForm({ user }: any) {
   
   const onFinish = async (values: any) => {
     try {
-      const response = await fetch('http://localhost:3000/api/updateData', {
+      const response = await fetch('https://kmkcorp.vercel.app/api/updateData', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

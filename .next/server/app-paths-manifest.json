@@ -1,7 +1,9 @@
 {
   "/(home)/page": "app/(home)/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/category/[slug]/page": "app/category/[slug]/page.js",
+  "/product/[slug]/page": "app/product/[slug]/page.js",
+  "/orders/page": "app/orders/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/product/[slug]/page": "app/product/[slug]/page.js"
+  "/userData/page": "app/userData/page.js",
+  "/api/updateData/route": "app/api/updateData/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
